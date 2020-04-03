@@ -1,50 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <title>ГАН</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta  hhtp-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="icon" href="img/bell.png">
+        <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">       
     </head>
     <body>
-        
-        <footer class="container-fluid">
-            <div class="row justify-content-end">
-                <div class="col-xl-4 col-sm-12"><h1 class="display-4">ipsum dolor sit amet</h1></div>
-            </div>
-        </footer>
 
-        <nav class="container-fluid sticky-top">
+        <nav class="container-fluid sticky-top bg-primary">
             <div class="row">
-                <div class="col px-0">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="col-6 px-0 align-middle">
+                    <nav class="navbar navbar-expand-lg navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="index.html">Home</a>
-                            <a class="nav-item nav-link" href="#">lorem</a>
-                            <a class="nav-item nav-link" href="#">ipsum</a>
-                            <a class="nav-item nav-link" href="#">dolor</a>
-                            <a class="nav-item nav-link" href="#">sit</a>
-                          </div>
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Найти новость" aria-label="Search">
+                                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Поиск</button>
+                            </form>
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="index.html">Основные новости</a>
+                                <a class="nav-item nav-link" href="#">Политика</a>
+                                <a class="nav-item nav-link" href="#">Культура</a>
+                                <a class="nav-item nav-link" href="#">Спорт</a>
+                            </div>
                         </div>
                       </nav>
                 </div>
+                <div class="col mt-3 pr-0 pl-5"><a href="index.html" class="mainlink"><h3 class="text-light name">ГАН <span>&mdash; ваш главный агрегатор новостей</span></h3></a></div>
             </div>
         </nav>
         
         
-        <div class="container bg-light">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a nesciunt laudantium ducimus laboriosam dignissimos, enim, hic maiores earum in asperiores quo exercitationem tempora fuga voluptate ipsam, delectus fugiat ipsa.</div>
-                <div class="col-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a nesciunt laudantium ducimus laboriosam dignissimos, enim, hic maiores earum in asperiores quo exercitationem tempora fuga voluptate ipsam, delectus fugiat ipsa.</div>
+                <div class="col-8 offset-1 p-5 bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a nesciunt laudantium ducimus laboriosam dignissimos, enim, hic maiores earum in asperiores quo exercitationem tempora fuga voluptate ipsam, delectus fugiat ipsa.</div>
+                <div class="col-3 px-5 bg-light">
+                    <div class="row">
+                        <div class="col"><h2>Last news</h2></div>
+                    </div>
+                    <div class="row">
+                        <h3>News 1</h3>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quae itaque fugiat alias saepe, eos neque? Illum magnam nostrum fugit quam magni illo maxime, perferendis totam quaerat tempora inventore! Excepturi.</div>
+                </div>
             </div>
         </div>
+
+
+
+        <footer class="container-fluid bg-dark p-3">
+            <div class="row text-center">
+                <div class="col">ГАН &copy;</div>
+            </div>
+        </footer>
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
